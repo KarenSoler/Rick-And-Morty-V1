@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./Images/PicsArt_07-25-04.49.43.png"> 
+</head>
+
+<body>
+<nav class="main-menu">
+
+    <img src="./Images/KarenGif.gif" width="95" height="90">
+    
+    <!--Etiqueta UL -> Nos permite crear listas no ordenadas-->
+    <ul class="main-menu opt-menu">
+        <!-- li==> Elementos de la lista -->
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./aboutMe.html" target="_blank"></ahref>Sobre mi</a></li>
+        <li><a href="./contact.html" target="_blank">Contáctenos</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h1>Formulario de Registro</h1>
+    <form method="GET" action="" class="form-flex">
+
+    <div class="input-form"> 
+        <div class="label">
+        <label for="nombre">Nombre</label>
+        </div>
+        <input id="nombre" name="nombre" type="text" required>
+    </div>
+
+    <div class="input-form">
+        <div class="label">
+        <label for="apellido">Apellido</label>
+        </div>
+        <input id="apellido" name="apellido" type="text" required>
+    </div>
+
+    <div class="input-form"> 
+        <div class="label">
+        <label for="edad">Edad</label>
+        </div>
+        <input id="edad" name="edad" type="number" required>
+    </div>
+
+    <div class="input-form">
+        <div class="label">
+        <label for="email">Correo Electrónico</label>
+        </div>
+        <input id="email" name="email" type="email">
+    </div>
+
+    <div class="input-form">
+    <div>
+        <label for="contrasena">Contraseña</label>
+    </div>
+        <input id="contrasena" name="contrasena" type="password">
+    </div>
+
+    <div class="input-form">
+    <div>
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+    </div>
+        <input id="fechaNacimiento" name="fechaNacimiento" type="date">
+    </div>
+    
+    <section class="opt">
+    <div class="input-form options">
+        <h4>Seleccione su Género</h4>
+        <label for="mujer">Mujer</label>
+        <input id="mujer" name="genero" type="radio">
+        <label for="hombre">Hombre</label>
+        <input id="hombre" name="genero" type="radio">
+    </div>
+
+    <div style="flex-grow: 3;" class="input-form options">
+         <h4>Deporte Favorito</h4>
+         
+         <div clas="opt-deportes">
+            <div>
+                <label for="futbol">Fútbol</label>
+
+                <input id="futbol" name="futbol" type="checkbox">
+            </div>
+            
+            <div>
+                <label for="ciclismo">Ciclismo</label>
+                <input id="ciclismo" name="ciclismo" type="checkbox">
+            </div>
+            
+            <div>
+                <label for="natacion">Natación</label>
+                <input id="natacion" name="natacion" type="checkbox">
+            </div>
+         </div>
+        
+    </div>
+    </section>
+
+    <div class="form-button">
+        <button type="submit">Enviar</button> 
+    </div>
+    
+    </form>
+</div>
+
+</body>
+</html>
